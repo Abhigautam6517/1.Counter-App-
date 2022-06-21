@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@media only screen and (max-device-width: 450px) { 
+   
+    .container{
+        height: 175vh;
+        background-color: cadetblue;
+        width: 175%;
+        display: flex;
+        justify-content: center;
+        align-content: center;    
+    
+    }
+    .container h1{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        width: 100%;
+        color: white;
+        font-size: 45px;
+        font-family: 'Lobster', cursive;
+        
+        
+    }
+    .update{
+        position: absolute;
+        top: 40%;
+        margin-top: 10%;
+        text-align: center;
+        background-color: aquamarine;
+        height: 80vh;
+        width: 150%;
+        border-radius: 40px;
+        border: 3px solid chocolate;
+    }
+    .update h2{
+        position: absolute;
+        top: 2%;
+        left: 17%;
+        font-size: 40px;
+        color: rgb(120, 120, 166);
+        font-family: 'Abel', sans-serif;
+
+    }
+    .update p{
+        position: absolute;
+        top: 25%;
+        left: 37%;
+        font-size: 300px;
+        font-weight: 900;
+        font-family: 'Lobster', cursive;
+    
+    }
+    #resetbtn{
+        position: absolute;
+        top:150%;
+        left: 10%;
+        color: black;
+        font-size: 40px;
+        height: 70px;
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 30px;
+        background-color: rgb(199, 106, 106);
+        
+    }
+    #btn{
+        position: absolute;
+        top:150%;
+        left: 110%;
+        color: black;
+        font-size: 40px;
+        height: 70px;
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 30px;
+        background-color: rgb(141, 224, 141);
+        
+    }
+   
+    
+}
